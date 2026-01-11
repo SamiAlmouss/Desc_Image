@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder,CommandHandler,MessageHandler, Conte
 from google import genai
 from google.genai import types
 from telegram.constants import ParseMode
-client = genai.Client(api_key='AIzaSyBx-_j1iByYESGScCjHQ4EaHWlBaFwJmQA')
+client = genai.Client(api_key='AIzaSyDXjPxVbJlkZUzjXCzCFeivGMzHg3k15Xs')
 TOKEN = '7763059278:AAGOq5p41F62XU0DTwoeNKa4HBtHEDRr8j4'
 tasks = []
 
@@ -91,6 +91,7 @@ def main():
 
 if __name__=="__main__":
     main()
+
 
 
 
